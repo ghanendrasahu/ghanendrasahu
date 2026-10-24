@@ -2,6 +2,8 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ghanendrasahu&label=PROFILE+VIEWS&color=blue&style=for-the-badge)
 
+[![Visitor Analytics](https://hits.sh/github.com/ghanendrasahu/ghanendrasahu.svg?view=total&label=VISITOR+ANALYTICS&color=8B5CF6&style=for-the-badge)](https://hits.sh/github.com/ghanendrasahu/ghanendrasahu/)
+
 Building production-grade ML systems, RAG pipelines, and agentic AI applications. Currently completing formal training in Data Science & ML while working on real-world inference systems, causal inference, and LLM-powered applications.
 
 **Location:** Bengaluru, India | **Phone:** +91 7608060384 | **Email:** [ghanendra2911@gmail.com](mailto:ghanendra2911@gmail.com)
