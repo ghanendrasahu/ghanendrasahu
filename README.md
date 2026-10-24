@@ -1,205 +1,110 @@
-## Data Scientist | ML Engineer | Generative AI
+![Ghanendra Sahu — Data Scientist](assets/header.svg)
 
-![Profile Views](https://komarev.com/ghpvc/?username=ghanendrasahu&label=PROFILE+VIEWS&color=blue&style=for-the-badge)
+[![Web](https://img.shields.io/badge/🌐_Live_Site-ghanendrasahu.github.io-58a6ff?style=for-the-badge&labelColor=0d1117)](https://ghanendrasahu.github.io/ghanendrasahu/)
+[![GitHub](https://img.shields.io/badge/GitHub-ghanendrasahu-181717?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/ghanendrasahu)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ghendrasahu-0A66C2?style=for-the-badge&logo=linkedin&labelColor=0d1117)](https://linkedin.com/in/ghanendrasahu)
 
-[![Visitor Analytics](https://hits.sh/github.com/ghanendrasahu/ghanendrasahu.svg?view=total&label=VISITOR+ANALYTICS&color=8B5CF6&style=for-the-badge)](https://hits.sh/github.com/ghanendrasahu/ghanendrasahu/)
+![Profile Views](https://komarev.com/ghpvc/?username=ghanendrasahu&label=PROFILE+VIEWS&color=blue&style=flat-square)
 
-Building production-grade ML systems, RAG pipelines, and agentic AI applications. Currently completing formal training in Data Science & ML while working on real-world inference systems, causal inference, and LLM-powered applications.
+Building production-grade ML systems, RAG pipelines, and agentic AI applications — currently completing formal Data Science & ML training while shipping real-world inference systems. 🐍 *The green snake patrols this banner's border clockwise — keep an eye on it.*
 
-**Location:** Bengaluru, India | **Phone:** +91 7608060384 | **Email:** [ghanendra2911@gmail.com](mailto:ghanendra2911@gmail.com)
-
-**Links:** [LinkedIn](https://linkedin.com/in/ghanendrasahu) | [GitHub](https://github.com/ghanendrasahu)
-
----
-
-## What I Do
-
-I specialize in end-to-end ML solutions: data pipeline design, model training with rigorous evaluation, and production deployment. Recent focus areas include RAG systems, multi-agent agentic AI, and building decision intelligence platforms that answer real business questions (not just prediction scores).
-
-**Core competencies:**
-- ML pipeline development (feature engineering, model selection, evaluation, threshold tuning)
-- Generative AI & LLM applications (RAG, embeddings, prompt engineering, agent orchestration)
-- Production deployment (FastAPI, Docker, Streamlit)
-- SQL analytics and data-driven decision systems
+> **Want live viewer analytics (countries, browsers, referrers)?** [Open my visitor dashboard](https://hits.sh/github.com/ghanendrasahu/ghanendrasahu/) — counts every profile visit.
 
 ---
 
-## Featured Projects
+## 🏆 Top 5 Projects
 
-### **Multi-Agent Study Assistant** — Agentic AI Reference Architecture
-[Repository](https://github.com/ghanendrasahu/multi-agent-study-assistant) | [Live Demo](https://ghanendrasahu-multi-agent-study-assistant-ap.streamlit.app/)
+### 1. [Multi-Agent Study Assistant](https://github.com/ghanendrasahu/multi-agent-study-assistant) — [🌐 LIVE](https://multi-agent-study-assistant-app.onrender.com)
 
-A production-style agentic AI application demonstrating the full LLM stack: prompt engineering → RAG → multi-agent orchestration → persistent vector memory.
+Agentic AI reference architecture showing the full LLM stack: prompt engineering → RAG → multi-agent orchestration → persistent vector memory.
 
-**What it does:** Accepts a learning topic and orchestrates 4 specialized agents (Researcher, Analyst, Critic, Finaliser) to produce structured study notes, self-critique loops, and long-term semantic memory.
+- **4 specialized agents** (Researcher → Analyst → Critic → Finaliser) with reflexion loops — the Critic scores answers and routes weak drafts back for refinement
+- **RAG:** semantic search + Wikipedia + DuckDuckGo retrieval grounded in LangGraph; **ChromaDB** memory persists across sessions
+- Fully typed `TypedDict` state graph with tool-abstraction (LLM decides when to call Wikipedia / search / calculator)
 
-**Technical highlights:**
-- **Agent loop & reflexion:** Critic scores answers; below threshold routes back to Analyst for refinement
-- **RAG pipeline:** Semantic search + Wikipedia + DuckDuckGo retrieval for grounded reasoning
-- **Vector memory:** ChromaDB persistent storage across sessions — the agent "remembers"
-- **State management:** TypedDict-based state flows through the agent graph safely
-- **Tool abstraction:** Wikipedia, search, and calculator tools; LLM decides when to invoke
+### 2. [Workforce Intelligence](https://github.com/ghanendrasahu/workforce-intelligence) — [🌐 API](https://workforce-intelligence-api-1n9k.onrender.com) · [🌐 UI](https://workforce-intelligence-ui.onrender.com)
 
-**Why it matters for hiring:** Shows ability to design complex agentic systems, manage stateful AI workflows, and build user-facing applications that handle multi-step reasoning.
+Enterprise decision engine for employee attrition — *explains drivers and simulates interventions, not just a probability score*.
 
----
+- 260k+ synthetic employee snapshots from a known causal DAG → every claim is testable; calibrated **LightGBM (0.67 ROC-AUC, validation 0.72)**
+- Per-employee risk drivers, what-if simulation ("10% raise + 20% workload cut → 32% → 29.4% risk, ₹18.4L cost avoided/yr")
+- Isotonic calibration (ECE 0.038 → 0.018), SHAP explainability, 5-stage data-quality pipeline, FastAPI + Streamlit + Docker + CI/CD
 
-### **Workforce Intelligence — Decision Engine, Not Just Predictions**
-[Repository](https://github.com/ghanendrasahu/workforce-intelligence)
+### 3. [AI Supply Chain Digital Twin](https://github.com/ghanendrasahu/ai-supply-chain-digital-twin) — [🌐 LIVE](https://supply-chain-digital-twin-app.onrender.com)
 
-Enterprise AI for employee attrition: predicts risk, explains drivers, simulates interventions, and prices outcomes. Demonstrates causal reasoning and what-if analysis—not just a probability score.
+Simulation-first supply-chain digital twin: demand forecasting, inventory policy, and disruption-scenario simulation via a Streamlit control panel.
 
-**What it does:**
-- Generates 260k+ synthetic employee snapshots from a known causal structure
-- Trains calibrated LightGBM model (0.67 ROC-AUC, 0.72 validation)
-- Produces per-employee risk drivers: "engagement +8.1pp, comp ratio +5.9pp, promo pressure +4.2pp"
-- Simulates interventions: "10% raise + 20% workload cut → risk 32% → 29.4%, cost avoided Rs 18.4L/yr"
-- Grounds answers via tools: analytics queries return real data, never invented metrics
+- Demand forecasting + inventory simulation engine you can stress-test with disruption scenarios
+- Interactive what-if control panel for planners — compare policies before committing capital
 
-**Technical highlights:**
-- **Causal framework:** Synthetic data generated from known causal DAG; every claim is testable
-- **Model calibration:** Isotonic regression reduces ECE from 0.038 → 0.018
-- **Explainability:** SHAP-based feature importance; "discrimination ceiling" measures model vs. Bayes limit
-- **Data quality:** 5-stage validation pipeline (completeness, validity, integrity, drift, PSI)
-- **Tool-calling agent:** Azure OpenAI agent queries analytics tools; refuses to hallucinate
-- **Production architecture:** FastAPI service + Streamlit dashboard + Docker compose + CI/CD
+### 4. [Customer Churn Prediction](https://github.com/ghanendrasahu/customer-churn-project) — [🌐 LIVE](https://customer-churn-app-1jyq.onrender.com)
 
-**Why it matters:** Demonstrates that ML isn't just modeling—it's building decision systems. Shows causal thinking, rigorous evaluation, and bridging the gap between ML and business.
+Full ML pipeline to deployment: data generation → training → FastAPI inference API → Streamlit dashboard.
+
+- Telco churn pipeline with tuned **Random Forest (87%+ accuracy)** and proper train/validation discipline
+- FastAPI inference with structured schemas + interactive dashboard for risk assessment and batch prediction
+
+### 5. [Fraud Detection Engine](https://github.com/ghanendrasahu/fraud-detection-engine) — [🌐 LIVE](https://fraud-detection-engine-s5k7.onrender.com)
+
+Transaction fraud scoring API: ensemble models trained at deploy time, served through FastAPI.
+
+- **XGBoost / LightGBM / CatBoost ensembles** exported to **ONNX** for fast inference
+- `/health` + `/predict` endpoints with imbalanced-learning-aware training
 
 ---
 
-### **Customer Churn Prediction — Full ML Pipeline to Deployment**
-[Repository](https://github.com/ghanendrasahu/customer-churn-project)
+## 🚀 More Projects — every live link beside the name
 
-End-to-end ML system: training pipeline → FastAPI inference API → Streamlit dashboard.
+| Project | ↗ Live | One-liner |
+|---|---|---|
+| [JobHunter AI](https://github.com/ghanendrasahu/jobhunter-ai) | [🌐 LIVE](https://jobhunter-ai-h73m.onrender.com) | Multi-agent pipeline discovers + ranks + tracks GenAI/DS roles (Adzuna + scraping), agent workflow dashboard |
+| [Kitsunecart](https://github.com/ghanendrasahu/kitsunecart) | [🌐 LIVE](https://kitsunecart.onrender.com) | E-commerce listing agent: product photo → SEO titles, bullets, descriptions (Groq LLM, offline fallback) |
+| [LegalLens India](https://github.com/ghanendrasahu/sharingan) | [🌐 LIVE](https://legal-lens-india.onrender.com) | AI contract literacy for startups, freelancers, landlords/tenants (phase-1 API live) |
+| [RAG Assistant API](https://github.com/ghanendrasahu/rag-assistant-api) | [🌐 LIVE](https://rag-assistant-api-393o.onrender.com) | PDF Q&A API: ChromaDB vector index + MiniLM/onnxruntime embeddings + Groq synthesis |
+| [Local RAG Assistant](https://github.com/ghanendrasahu/local-rag-assistant) | — | Privacy-first offline knowledge retrieval: TXT/PDF chunking + TF-IDF, config-driven, pytest |
+| [V-Call](https://github.com/ghanendrasahu/v-call) | — | AI Meeting Intelligence: FastAPI + Celery + PostgreSQL + LangGraph, multi-tenant transcription & agent orchestration |
+| [OnePiece](https://github.com/ghanendrasahu/onepiece) | — | Live 360° streaming & AI-guided virtual tourism with verified human guides |
 
-**What it does:**
-- Ingests 7,043-row Telco dataset
-- Trains Random Forest (87%+ accuracy) with hyperparameter optimization
-- Serves predictions via FastAPI with structured request/response schemas
-- Interactive Streamlit UI for risk assessment and batch prediction
+<details>
+  <summary><b>📚 More repos</b></summary>
 
-**Technical highlights:**
-- Modular structure: data pipeline, training script, API layer, UI layer
-- FastAPI with proper schemas, async endpoints, error handling
-- Streamlit integration for non-technical stakeholders
-- Model serialization and artifact management
+&nbsp;|&nbsp;
+---|---
+[breast-cancer-classification](https://github.com/ghanendrasahu/breast-cancer-classification) · [credit-risk-project](https://github.com/ghanendrasahu/credit-risk-project) · [industrial-predictive-maintenance](https://github.com/ghanendrasahu/industrial-predictive-maintenance) · [student-attendance](https://github.com/ghanendrasahu/student-attendance) · [finance-forecast-lstm](https://github.com/ghanendrasahu/finance-forecast-lstm) · [crewai-research-agent](https://github.com/ghanendrasahu/crewai-research-agent) · [ai-chat-bot](https://github.com/ghanendrasahu/ai-chat-bot) · [ml-notebooks](https://github.com/ghanendrasahu/ml-notebooks) · [leetcode-dsa](https://github.com/ghanendrasahu/leetcode-dsa) · [fastapi-project](https://github.com/ghanendrasahu/fastapi-project)
 
-**Why it matters:** Shows ability to build production-quality ML systems from scratch with clean architecture.
-
----
-
-### **RAG Assistant API — Document Intelligence with FastAPI**
-[Repository](https://github.com/ghanendrasahu/rag-assistant-api)
-
-FastAPI-based PDF RAG backend: ingest PDFs → embed with Hugging Face → store in ChromaDB → retrieve + generate answers via Groq.
-
-**What it does:**
-- `/ingest` endpoint: Parse PDFs, chunk text, generate embeddings, persist to vector DB
-- `/query` endpoint: Retrieve relevant chunks, generate grounded answers
-- `/health` endpoint: Service readiness checks
-
-**Technical highlights:**
-- ChromaDB for vector storage (production-ready DB)
-- Clean service architecture: `api/`, `core/`, `services/`, `utils/`
-- Groq LLM integration for low-latency generation
-- Structured logging and request context tracking
-
-**Why it matters:** Shows API design, vector database integration, and LLM service composition.
+</details>
 
 ---
 
-### **Local RAG Assistant — Offline Knowledge Retrieval**
-[Repository](https://github.com/ghanendrasahu/local-rag-assistant)
+## 💻 Tech Stack
 
-Offline RAG pipeline for enterprise documents: zero external API dependency, designed for privacy-first document Q&A.
+**Languages:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-121011?style=flat-square&logo=gnu-bash&logoColor=white)
 
-**What it does:**
-- Loads TXT and PDF files
-- Chunks with configurable overlap (improves recall at chunk boundaries)
-- Indexes with TF-IDF (fast, interpretable baseline)
-- CLI interface for indexing and querying
+**ML/AI:** ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![XGBoost](https://img.shields.io/badge/XGBoost-AA3939?style=flat-square) ![RAG](https://img.shields.io/badge/RAG-7C3AED?style=flat-square) ![LangChain](https://img.shields.io/badge/LangChain-1C3C13?style=flat-square) ![LangGraph](https://img.shields.io/badge/LangGraph-2C6E49?style=flat-square) ![CrewAI](https://img.shields.io/badge/CrewAI-FF4455?style=flat-square)
 
-**Technical highlights:**
-- Config-driven pipeline (`pyproject.toml`)
-- Custom chunking strategy with overlap
-- TF-IDF as strong retrieval baseline (before jumping to embeddings)
-- Unit tests with pytest
-- Clear separation of concerns: `ingest.py`, `chunking.py`, `index.py`, `pipeline.py`
-
-**Why it matters:** Shows understands retrieval fundamentals, software engineering discipline, and building tools others can use.
+**Deployment:** ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
 ---
 
-## Technical Stack
+## 💼 Experience
 
-**Languages & Core:** Python · SQL (MySQL, PostgreSQL) · Bash
+**Data Science with AI Apprentice** — BDreamz Global Solutions, Bengaluru *(Oct 2025 – Mar 2026)*
+Built and validated ML/AI models in production environments; end-to-end model lifecycle management.
 
-**ML/AI:** Scikit-learn · PyTorch · XGBoost · Random Forest · Logistic Regression · LSTM
-- **Evaluation:** ROC-AUC, F1-Score, Precision-Recall, Confusion Matrix, Threshold Tuning, A/B Testing
-- **GenAI/NLP:** RAG, Embeddings, Vector Retrieval, Semantic Search, TF-IDF, Prompt Engineering
-- **Agentic:** LangChain, LangGraph, LlamaIndex, CrewAI, Multi-Agent Orchestration
+**Data Science Intern** — Prinston Smart Engineers, Bengaluru *(Jan – Feb 2025)*
+Workforce attendance forecasting pipeline (Linear Regression, KNN, Linear SVC) → **89% accuracy**.
 
-**Libraries:** Pandas · NumPy · Matplotlib · Seaborn · Hugging Face Transformers
+## 🎓 Education
 
-**Deployment & Backend:** FastAPI · Streamlit · Docker · Git/GitHub
-- **Cloud:** AWS (EC2, S3, Lambda)
-- **Databases:** ChromaDB, PostgreSQL, MySQL
-- **Monitoring:** Structured logging, pytest
-
-**Frontend:** React (Vite) · Node.js/Express (basic fullstack experience)
+**BCA** — Krupanidhi Degree College, Bangalore University | CGPA **9.15/10** · **Data Science & ML Full-Time Training** — Besant Technologies, Bengaluru (2025-26)
 
 ---
 
-## Work Experience
+## 📫 Reach Me
 
-**Data Science with AI Apprentice**  
-BDreamz Global Solutions Pvt. Ltd., Bengaluru | Oct 2025 – Mar 2026
-- Built and validated ML/AI models in production environments
-- Collaborated on real-time data science and agentic AI projects
-- End-to-end model lifecycle management
+[![Email](https://img.shields.io/badge/Email-ghanendra2911@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ghanendra2911@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-in/ghanendrasahu-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ghanendrasahu)
+[![GitHub](https://img.shields.io/badge/GitHub-ghanendrasahu-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ghanendrasahu)
+![Phone](https://img.shields.io/badge/Phone-%2B91_7608060384-2E7D32?style=flat-square&logo=phone&logoColor=white)
 
-**Data Science Intern**  
-Prinston Smart Engineers, Bengaluru | Jan 2025 – Feb 2025
-- Developed ML pipeline for workforce attendance forecasting (Linear Regression, KNN, Linear SVC)
-- Achieved 89% classification accuracy
-- Delivered production-ready inference pipeline
-
----
-
-## Education
-
-**Bachelor of Computer Application (BCA)**  
-Krupanidhi Degree College, Bangalore North University | 2022 – 2025  
-CGPA: 9.15/10
-
-**Data Science & ML Full-Time Training**  
-Besant Technologies, Bengaluru | Sep 2025 – May 2026
-
----
-
-## Certifications & Recognition
-
-- AI Apprentice — BDreamz Global Solutions / Besant Technologies
-- Python & SQL Certification — Besant Technologies
-- KRUPADECON Conference Participation
-
----
-
-## Currently Exploring
-
-- **LLM fine-tuning & adaptation:** Beyond prompt engineering → practical model tuning
-- **Advanced agent patterns:** Tool use, hierarchical planning, long-horizon reasoning
-- **MLOps maturity:** Beyond local notebooks → CI/CD, model registries, deployment pipelines
-- **Causal inference & interpretability:** Moving from correlations to actionable insights
-
----
-
-## How to Reach Me
-
-- **Code:** [github.com/ghanendrasahu](https://github.com/ghanendrasahu)
-- **Professional:** [linkedin.com/in/ghanendrasahu](https://linkedin.com/in/ghanendrasahu)
-- **Email:** [ghanendra2911@gmail.com](mailto:ghanendra2911@gmail.com)
-- **Phone:** +91 7608060384
-
-I'm open to discussions about ML/AI projects, internships, and full-time roles in Data Science or ML Engineering.
+Open to ML/AI projects, internships, and full-time roles in Data Science or ML Engineering.

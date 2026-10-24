@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="280" viewBox="0 0 880 280" role="img" aria-label="Ghanendra Sahu - Data Scientist">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#101828"/>
+      <stop offset="1" stop-color="#060a12"/>
+    </linearGradient>
+    <linearGradient id="snake" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a7f3a0"/>
+      <stop offset="1" stop-color="#2ea043"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="880" height="280" rx="16" fill="url(#card)"/>
+
+  <!-- dotted track the snake travels on -->
+  <path id="track"
+        d="M76 40 H804 A36 36 0 0 1 840 76 V204 A36 36 0 0 1 804 240 H76 A36 36 0 0 1 40 204 V76 A36 36 0 0 1 76 40 Z"
+        fill="none" stroke="#58a6ff" stroke-opacity="0.28" stroke-width="2" stroke-dasharray="2 10"
+        stroke-linecap="round"/>
+
+  <!-- SNAKE BODY - 14 segments trailing the head (each delayed = eats its own tail) -->
+  <g opacity="0.95">
+    <circle r="4"    fill="url(#snake)" opacity="0.55"><animateMotion dur="14s" repeatCount="indefinite" begin="-1.40s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="4.5"  fill="url(#snake)" opacity="0.60"><animateMotion dur="14s" repeatCount="indefinite" begin="-1.30s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="5"    fill="url(#snake)" opacity="0.65"><animateMotion dur="14s" repeatCount="indefinite" begin="-1.20s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="5.5"  fill="url(#snake)" opacity="0.70"><animateMotion dur="14s" repeatCount="indefinite" begin="-1.10s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="6"    fill="url(#snake)" opacity="0.74"><animateMotion dur="14s" repeatCount="indefinite" begin="-1.00s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="6.5"  fill="url(#snake)" opacity="0.78"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.90s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="7"    fill="url(#snake)" opacity="0.82"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.80s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="7.5"  fill="url(#snake)" opacity="0.86"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.70s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="8"    fill="url(#snake)" opacity="0.89"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.60s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="8.5"  fill="url(#snake)" opacity="0.92"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.50s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="9"    fill="url(#snake)" opacity="0.94"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.40s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="9.5"  fill="url(#snake)" opacity="0.96"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.30s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="10"   fill="url(#snake)" opacity="0.97"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.20s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="10.5" fill="url(#snake)" opacity="0.98"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.10s"><mpath href="#track"/></animateMotion></circle>
+
+    <!-- HEAD, auto-rotates along the path so eyes face the direction of travel (clockwise) -->
+    <g filter="url(#glow)">
+      <circle r="11.5" fill="url(#snake)"/>
+      <circle cx="4.5" cy="-4.2" r="2.1" fill="#08111d"/>
+      <circle cx="4.5" cy="4.2"  r="2.1" fill="#08111d"/>
+      <circle cx="5.6" cy="-4.2" r="0.8" fill="#eaffea"/>
+      <circle cx="5.6" cy="4.2"  r="0.8" fill="#eaffea"/>
+      <animateMotion dur="14s" repeatCount="indefinite" begin="0s" rotate="auto"><mpath href="#track"/></animateMotion>
+    </g>
+  </g>
+
+  <!-- Header text -->
+  <text x="440" y="126" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+        font-size="46" font-weight="800" fill="#e6edf3" letter-spacing="1">GHANENDRA SAHU</text>
+  <text x="440" y="160" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+        font-size="17" font-weight="600" fill="#7ee787" letter-spacing="3.5">DATA SCIENTIST &#183; ML ENGINEER &#183; GENERATIVE AI</text>
+  <text x="440" y="194" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif"
+        font-size="14.5" fill="#8b949e">Production ML systems &#183; RAG pipelines &#183; Agentic AI &#183; Open to DS/ML roles</text>
+
+  <!-- stats pills -->
+  <g font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="600">
+    <rect x="243" y="212" width="88" height="26" rx="13" fill="#161b22" stroke="#30363d"/>
+    <text x="287" y="229" text-anchor="middle" fill="#58a6ff">Python</text>
+    <rect x="339" y="212" width="98" height="26" rx="13" fill="#161b22" stroke="#30363d"/>
+    <text x="388" y="229" text-anchor="middle" fill="#a371f7">LangChain</text>
+    <rect x="445" y="212" width="86" height="26" rx="13" fill="#161b22" stroke="#30363d"/>
+    <text x="488" y="229" text-anchor="middle" fill="#39d2c0">FastAPI</text>
+    <rect x="539" y="212" width="98" height="26" rx="13" fill="#161b22" stroke="#30363d"/>
+    <text x="588" y="229" text-anchor="middle" fill="#58a6ff">AWS</text>
+  </g>
+</svg>
