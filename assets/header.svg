@@ -25,31 +25,32 @@
         fill="none" stroke="#58a6ff" stroke-opacity="0.28" stroke-width="2" stroke-dasharray="2 10"
         stroke-linecap="round"/>
 
-  <!-- SNAKE BODY - 14 segments trailing the head (each delayed = eats its own tail) -->
+  <!-- SNAKE: head animation clock must be FURTHEST AHEAD (most negative begin);
+       each body segment lags 0.1s more, ending with the tail tip at 0.00s -->
   <g opacity="0.95">
-    <circle r="4"    fill="url(#snake)" opacity="0.55"><animateMotion dur="14s" repeatCount="indefinite" begin="-1.40s"><mpath href="#track"/></animateMotion></circle>
-    <circle r="4.5"  fill="url(#snake)" opacity="0.60"><animateMotion dur="14s" repeatCount="indefinite" begin="-1.30s"><mpath href="#track"/></animateMotion></circle>
-    <circle r="5"    fill="url(#snake)" opacity="0.65"><animateMotion dur="14s" repeatCount="indefinite" begin="-1.20s"><mpath href="#track"/></animateMotion></circle>
-    <circle r="5.5"  fill="url(#snake)" opacity="0.70"><animateMotion dur="14s" repeatCount="indefinite" begin="-1.10s"><mpath href="#track"/></animateMotion></circle>
-    <circle r="6"    fill="url(#snake)" opacity="0.74"><animateMotion dur="14s" repeatCount="indefinite" begin="-1.00s"><mpath href="#track"/></animateMotion></circle>
-    <circle r="6.5"  fill="url(#snake)" opacity="0.78"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.90s"><mpath href="#track"/></animateMotion></circle>
-    <circle r="7"    fill="url(#snake)" opacity="0.82"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.80s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="10.5" fill="url(#snake)" opacity="0.98"><animateMotion dur="14s" repeatCount="indefinite" begin="-1.30s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="10"   fill="url(#snake)" opacity="0.97"><animateMotion dur="14s" repeatCount="indefinite" begin="-1.20s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="9.5"  fill="url(#snake)" opacity="0.96"><animateMotion dur="14s" repeatCount="indefinite" begin="-1.10s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="9"    fill="url(#snake)" opacity="0.94"><animateMotion dur="14s" repeatCount="indefinite" begin="-1.00s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="8.5"  fill="url(#snake)" opacity="0.92"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.90s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="8"    fill="url(#snake)" opacity="0.89"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.80s"><mpath href="#track"/></animateMotion></circle>
     <circle r="7.5"  fill="url(#snake)" opacity="0.86"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.70s"><mpath href="#track"/></animateMotion></circle>
-    <circle r="8"    fill="url(#snake)" opacity="0.89"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.60s"><mpath href="#track"/></animateMotion></circle>
-    <circle r="8.5"  fill="url(#snake)" opacity="0.92"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.50s"><mpath href="#track"/></animateMotion></circle>
-    <circle r="9"    fill="url(#snake)" opacity="0.94"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.40s"><mpath href="#track"/></animateMotion></circle>
-    <circle r="9.5"  fill="url(#snake)" opacity="0.96"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.30s"><mpath href="#track"/></animateMotion></circle>
-    <circle r="10"   fill="url(#snake)" opacity="0.97"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.20s"><mpath href="#track"/></animateMotion></circle>
-    <circle r="10.5" fill="url(#snake)" opacity="0.98"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.10s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="7"    fill="url(#snake)" opacity="0.82"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.60s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="6.5"  fill="url(#snake)" opacity="0.78"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.50s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="6"    fill="url(#snake)" opacity="0.74"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.40s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="5.5"  fill="url(#snake)" opacity="0.70"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.30s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="5"    fill="url(#snake)" opacity="0.65"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.20s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="4.5"  fill="url(#snake)" opacity="0.60"><animateMotion dur="14s" repeatCount="indefinite" begin="-0.10s"><mpath href="#track"/></animateMotion></circle>
+    <circle r="4"    fill="url(#snake)" opacity="0.55"><animateMotion dur="14s" repeatCount="indefinite" begin="0.00s"><mpath href="#track"/></animateMotion></circle>
 
-    <!-- HEAD, auto-rotates along the path so eyes face the direction of travel (clockwise) -->
+    <!-- HEAD - leads the body, auto-rotates along path so eyes face the travel direction (clockwise) -->
     <g filter="url(#glow)">
       <circle r="11.5" fill="url(#snake)"/>
       <circle cx="4.5" cy="-4.2" r="2.1" fill="#08111d"/>
       <circle cx="4.5" cy="4.2"  r="2.1" fill="#08111d"/>
       <circle cx="5.6" cy="-4.2" r="0.8" fill="#eaffea"/>
       <circle cx="5.6" cy="4.2"  r="0.8" fill="#eaffea"/>
-      <animateMotion dur="14s" repeatCount="indefinite" begin="0s" rotate="auto"><mpath href="#track"/></animateMotion>
+      <animateMotion dur="14s" repeatCount="indefinite" begin="-1.40s" rotate="auto"><mpath href="#track"/></animateMotion>
     </g>
   </g>
 

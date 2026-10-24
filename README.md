@@ -8,8 +8,6 @@
 
 Building production-grade ML systems, RAG pipelines, and agentic AI applications — currently completing formal Data Science & ML training while shipping real-world inference systems. 🐍 *The green snake patrols this banner's border clockwise — keep an eye on it.*
 
-> **Want live viewer analytics (countries, browsers, referrers)?** [Open my visitor dashboard](https://hits.sh/github.com/ghanendrasahu/ghanendrasahu/) — counts every profile visit.
-
 ---
 
 ## 🏆 Top 5 Projects
@@ -108,3 +106,15 @@ Workforce attendance forecasting pipeline (Linear Regression, KNN, Linear SVC) �
 ![Phone](https://img.shields.io/badge/Phone-%2B91_7608060384-2E7D32?style=flat-square&logo=phone&logoColor=white)
 
 Open to ML/AI projects, internships, and full-time roles in Data Science or ML Engineering.
+
+<div align="right">
+
+<details>
+<summary>👁️</summary>
+
+**Private visitor dashboard** — countries, browsers, referrers, daily timeline
+👉 [Open analytics](https://hits.sh/github.com/ghanendrasahu/ghanendrasahu/)
+
+</details>
+
+</div>
