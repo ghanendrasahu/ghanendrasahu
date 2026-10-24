@@ -112,7 +112,7 @@ Open to ML/AI projects, internships, and full-time roles in Data Science or ML E
 <details>
 <summary>👁️</summary>
 
-[don't](https://hits.sh/github.com/ghanendrasahu/ghanendrasahu/)
+[don't](https://github.com/ghanendrasahu/ghanendrasahu/graphs/traffic)
 
 </details>
 
