@@ -112,8 +112,7 @@ Open to ML/AI projects, internships, and full-time roles in Data Science or ML E
 <details>
 <summary>👁️</summary>
 
-**Private visitor dashboard** — countries, browsers, referrers, daily timeline
-👉 [Open analytics](https://hits.sh/github.com/ghanendrasahu/ghanendrasahu/)
+[don't](https://hits.sh/github.com/ghanendrasahu/ghanendrasahu/)
 
 </details>
 
