@@ -12,7 +12,7 @@ const TOP = [
   {
     n: "Workforce Intelligence",
     gh: "https://github.com/ghanendrasahu/workforce-intelligence",
-    live: ["https://workforce-intelligence-api-1n9k.onrender.com", "https://workforce-intelligence-ui.onrender.com"],
+    live: ["https://workforce-intelligence-api-1n9k.onrender.com/docs", "https://workforce-intelligence-ui.onrender.com"],
     d: "Decision engine for attrition: 260k+ causal synthetic snapshots, calibrated LightGBM (0.67 ROC-AUC), SHAP risk drivers, what-if intervention simulation with cost-avoidance math.",
     tags: ["LightGBM", "SHAP", "FastAPI", "Causal"],
     tag: "Decision ML",
@@ -39,7 +39,7 @@ const TOP = [
   {
     n: "Fraud Detection Engine",
     gh: "https://github.com/ghanendrasahu/fraud-detection-engine",
-    live: ["https://fraud-detection-engine-s5k7.onrender.com"],
+    live: ["https://fraud-detection-engine-s5k7.onrender.com/docs"],
     d: "Transaction fraud scoring API: XGBoost / LightGBM / CatBoost ensembles trained at deploy time, exported to ONNX for fast inference, served via FastAPI /health + /predict.",
     tags: ["XGBoost", "ONNX", "FastAPI"],
     tag: "Fraud",
@@ -49,9 +49,9 @@ const TOP = [
 
 const ALL = [
   { n: "JobHunter AI", gh: "https://github.com/ghanendrasahu/jobhunter-ai", live: "https://jobhunter-ai-h73m.onrender.com", d: "Multi-agent pipeline discovers + ranks + tracks GenAI/DS roles (Adzuna + scraping), agent workflow dashboard." },
-  { n: "Kitsunecart", gh: "https://github.com/ghanendrasahu/kitsunecart", live: "https://kitsunecart.onrender.com", d: "E-commerce listing agent: product photo → SEO titles, bullets, descriptions (Groq LLM, offline fallback)." },
-  { n: "LegalLens India", gh: "https://github.com/ghanendrasahu/sharingan", live: "https://legal-lens-india.onrender.com", d: "AI contract literacy for startups, freelancers, landlords/tenants — phase-1 API live." },
-  { n: "RAG Assistant API", gh: "https://github.com/ghanendrasahu/rag-assistant-api", live: "https://rag-assistant-api-393o.onrender.com", d: "PDF Q&A API: ChromaDB vector index + MiniLM/onnxruntime embeddings + Groq synthesis." },
+  { n: "Kitsunecart", gh: "https://github.com/ghanendrasahu/kitsunecart", live: "https://kitsunecart.onrender.com/docs", d: "E-commerce listing agent: product photo → SEO titles, bullets, descriptions (Groq LLM, offline fallback)." },
+  { n: "LegalLens India", gh: "https://github.com/ghanendrasahu/sharingan", live: "https://legal-lens-india.onrender.com/docs", d: "AI contract literacy for startups, freelancers, landlords/tenants — phase-1 API live." },
+  { n: "RAG Assistant API", gh: "https://github.com/ghanendrasahu/rag-assistant-api", live: "https://rag-assistant-api-393o.onrender.com/docs", d: "PDF Q&A API: ChromaDB vector index + MiniLM/onnxruntime embeddings + Groq synthesis." },
   { n: "Local RAG Assistant", gh: "https://github.com/ghanendrasahu/local-rag-assistant", live: null, d: "Privacy-first offline retrieval: TXT/PDF chunking + TF-IDF, config-driven, pytest." },
   { n: "V-Call", gh: "https://github.com/ghanendrasahu/v-call", live: null, d: "AI Meeting Intelligence: FastAPI + Celery + PostgreSQL + LangGraph, multi-tenant transcription." },
   { n: "OnePiece", gh: "https://github.com/ghanendrasahu/onepiece", live: null, d: "Live 360° streaming & AI-guided virtual tourism with verified human guides." }

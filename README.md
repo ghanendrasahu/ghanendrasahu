@@ -20,7 +20,7 @@ Agentic AI reference architecture showing the full LLM stack: prompt engineering
 - **RAG:** semantic search + Wikipedia + DuckDuckGo retrieval grounded in LangGraph; **ChromaDB** memory persists across sessions
 - Fully typed `TypedDict` state graph with tool-abstraction (LLM decides when to call Wikipedia / search / calculator)
 
-### 2. [Workforce Intelligence](https://github.com/ghanendrasahu/workforce-intelligence) — [🌐 API](https://workforce-intelligence-api-1n9k.onrender.com) · [🌐 UI](https://workforce-intelligence-ui.onrender.com)
+### 2. [Workforce Intelligence](https://github.com/ghanendrasahu/workforce-intelligence) — [🌐 API](https://workforce-intelligence-api-1n9k.onrender.com/docs) · [🌐 UI](https://workforce-intelligence-ui.onrender.com)
 
 Enterprise decision engine for employee attrition — *explains drivers and simulates interventions, not just a probability score*.
 
@@ -42,7 +42,7 @@ Full ML pipeline to deployment: data generation → training → FastAPI inferen
 - Telco churn pipeline with tuned **Random Forest (87%+ accuracy)** and proper train/validation discipline
 - FastAPI inference with structured schemas + interactive dashboard for risk assessment and batch prediction
 
-### 5. [Fraud Detection Engine](https://github.com/ghanendrasahu/fraud-detection-engine) — [🌐 LIVE](https://fraud-detection-engine-s5k7.onrender.com)
+### 5. [Fraud Detection Engine](https://github.com/ghanendrasahu/fraud-detection-engine) — [🌐 LIVE](https://fraud-detection-engine-s5k7.onrender.com/docs)
 
 Transaction fraud scoring API: ensemble models trained at deploy time, served through FastAPI.
 
@@ -56,9 +56,9 @@ Transaction fraud scoring API: ensemble models trained at deploy time, served th
 | Project | ↗ Live | One-liner |
 |---|---|---|
 | [JobHunter AI](https://github.com/ghanendrasahu/jobhunter-ai) | [🌐 LIVE](https://jobhunter-ai-h73m.onrender.com) | Multi-agent pipeline discovers + ranks + tracks GenAI/DS roles (Adzuna + scraping), agent workflow dashboard |
-| [Kitsunecart](https://github.com/ghanendrasahu/kitsunecart) | [🌐 LIVE](https://kitsunecart.onrender.com) | E-commerce listing agent: product photo → SEO titles, bullets, descriptions (Groq LLM, offline fallback) |
-| [LegalLens India](https://github.com/ghanendrasahu/sharingan) | [🌐 LIVE](https://legal-lens-india.onrender.com) | AI contract literacy for startups, freelancers, landlords/tenants (phase-1 API live) |
-| [RAG Assistant API](https://github.com/ghanendrasahu/rag-assistant-api) | [🌐 LIVE](https://rag-assistant-api-393o.onrender.com) | PDF Q&A API: ChromaDB vector index + MiniLM/onnxruntime embeddings + Groq synthesis |
+| [Kitsunecart](https://github.com/ghanendrasahu/kitsunecart) | [🌐 LIVE](https://kitsunecart.onrender.com/docs) | E-commerce listing agent: product photo → SEO titles, bullets, descriptions (Groq LLM, offline fallback) |
+| [LegalLens India](https://github.com/ghanendrasahu/sharingan) | [🌐 LIVE](https://legal-lens-india.onrender.com/docs) | AI contract literacy for startups, freelancers, landlords/tenants (phase-1 API live) |
+| [RAG Assistant API](https://github.com/ghanendrasahu/rag-assistant-api) | [🌐 LIVE](https://rag-assistant-api-393o.onrender.com/docs) | PDF Q&A API: ChromaDB vector index + MiniLM/onnxruntime embeddings + Groq synthesis |
 | [Local RAG Assistant](https://github.com/ghanendrasahu/local-rag-assistant) | — | Privacy-first offline knowledge retrieval: TXT/PDF chunking + TF-IDF, config-driven, pytest |
 | [V-Call](https://github.com/ghanendrasahu/v-call) | — | AI Meeting Intelligence: FastAPI + Celery + PostgreSQL + LangGraph, multi-tenant transcription & agent orchestration |
 | [OnePiece](https://github.com/ghanendrasahu/onepiece) | — | Live 360° streaming & AI-guided virtual tourism with verified human guides |
