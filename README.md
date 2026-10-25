@@ -6,7 +6,7 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ghanendrasahu&label=PROFILE+VIEWS&color=blue&style=flat-square)
 
-Building production-grade ML systems, RAG pipelines, and agentic AI applications — currently completing formal Data Science & ML training while shipping real-world inference systems. 🐍 *The green snake patrols this banner's border clockwise — keep an eye on it.*
+Building production-grade ML systems, RAG pipelines, and agentic AI applications — currently completing formal Data Science & ML training while shipping real-world inference systems.
 
 ---
 
