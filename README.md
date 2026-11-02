@@ -70,8 +70,8 @@ Transaction fraud scoring API: ensemble models trained at deploy time, served th
 | [Credit Risk Dashboard](https://github.com/ghanendrasahu/credit-risk-project) | [🌐 LIVE](https://credit-risk-app-92s8.onrender.com) | Loan-default scorer with threshold tuning for recall, served in an interactive Streamlit app |
 | [Industrial Predictive Maintenance](https://github.com/ghanendrasahu/industrial-predictive-maintenance) | [🌐 LIVE](https://industrial-predictive-maintenance-we44.onrender.com/docs) | Telemetry → anomaly + RUL + failure probability behind a FastAPI scoring API |
 | [Local RAG Assistant](https://github.com/ghanendrasahu/local-rag-assistant) | — | Privacy-first offline knowledge retrieval: TXT/PDF chunking + TF-IDF, config-driven, pytest |
-| [V-Call](https://github.com/ghanendrasahu/v-call) | — | AI Meeting Intelligence: FastAPI + Celery + PostgreSQL + LangGraph, multi-tenant transcription & agent orchestration |
-| [OnePiece](https://github.com/ghanendrasahu/onepiece) | — | Live 360° streaming & AI-guided virtual tourism with verified human guides |
+| [V-Call](https://github.com/ghanendrasahu/v-call) | [🌐 LIVE](https://v-call-mpy2.onrender.com/docs) | AI Meeting Intelligence: FastAPI + Celery + PostgreSQL + LangGraph, multi-tenant transcription & agent orchestration (phase-1 API live) |
+| [OnePiece](https://github.com/ghanendrasahu/onepiece) | [🌐 LIVE](https://onepiece-identity.onrender.com/docs) | Live 360° streaming & AI-guided virtual tourism with verified human guides — 8-service platform, identity service live |
 
 <details>
   <summary><b>📚 More repos</b></summary>
