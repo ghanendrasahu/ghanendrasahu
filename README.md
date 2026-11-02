@@ -1,12 +1,14 @@
 ![Ghanendra Sahu — Data Scientist](assets/header.svg)
 
-[![Web](https://img.shields.io/badge/🌐_Live_Site-ghanendrasahu.github.io-58a6ff?style=for-the-badge&labelColor=0d1117)](https://ghanendrasahu.github.io/ghanendrasahu/)
+[![Web](https://img.shields.io/badge/🌐_Live_Portfolio-onrender.com-58a6ff?style=for-the-badge&labelColor=0d1117)](https://ghanendra-portfolio.onrender.com)
 [![GitHub](https://img.shields.io/badge/GitHub-ghanendrasahu-181717?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/ghanendrasahu)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-ghendrasahu-0A66C2?style=for-the-badge&logo=linkedin&labelColor=0d1117)](https://linkedin.com/in/ghanendrasahu)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-ghanendrasahu-0A66C2?style=for-the-badge&logo=linkedin&labelColor=0d1117)](https://linkedin.com/in/ghanendrasahu)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ghanendrasahu&label=PROFILE+VIEWS&color=blue&style=flat-square)
 
 Building production-grade ML systems, RAG pipelines, and agentic AI applications — currently completing formal Data Science & ML training while shipping real-world inference systems.
+
+> 🔁 All live demos run on free-tier hosts — the **first click after idle can take ~60–90 s** while an app wakes; every link is health-checked and working.
 
 ---
 
@@ -59,6 +61,14 @@ Transaction fraud scoring API: ensemble models trained at deploy time, served th
 | [Kitsunecart](https://github.com/ghanendrasahu/kitsunecart) | [🌐 LIVE](https://kitsunecart.onrender.com/docs) | E-commerce listing agent: product photo → SEO titles, bullets, descriptions (Groq LLM, offline fallback) |
 | [LegalLens India](https://github.com/ghanendrasahu/sharingan) | [🌐 LIVE](https://legal-lens-india.onrender.com/docs) | AI contract literacy for startups, freelancers, landlords/tenants (phase-1 API live) |
 | [RAG Assistant API](https://github.com/ghanendrasahu/rag-assistant-api) | [🌐 LIVE](https://rag-assistant-api-393o.onrender.com/docs) | PDF Q&A API: ChromaDB vector index + MiniLM/onnxruntime embeddings + Groq synthesis |
+| [AI Chat Bot](https://github.com/ghanendrasahu/ai-chat-bot) | [🌐 LIVE](https://ai-chat-bot-tmov.onrender.com) | Fullstack chat assistant: React/Vite frontend on a Node-Express API, streaming OpenAI replies with graceful degradation |
+| [RAG Evaluation Platform](https://github.com/ghanendrasahu/rag-eval-platform) | [🌐 LIVE](https://rag-eval-platform.onrender.com/docs) | RAG QA + built-in evaluation APIs that grade retrieval and answer quality across configurations |
+| [AI Content Factory](https://github.com/ghanendrasahu/ai-content-factory) | [🌐 LIVE](https://ai-content-factory-k9cv.onrender.com) | YouTube → transcript → clips → 9:16 video pipeline (LangGraph + FFmpeg + Whisper) |
+| [AI Integrated Coding Agent](https://github.com/ghanendrasahu/ai-integrate-coding) | [🌐 LIVE](https://ai-integrate-coding.onrender.com) | Agentic coding service: plans and executes tasks with streaming (SSE) progress + final reports (Flask) |
+| [Bankai OS](https://github.com/ghanendrasahu/bankai-os) | [🌐 LIVE](https://bankai-os.onrender.com) | Personal autonomous-agent platform: server orchestrator + web dashboard (Node/TypeScript monorepo) |
+| [AI Data Science Team](https://github.com/ghanendrasahu/ai-data-science-team) | [🌐 API](https://ai-data-science-team-api.onrender.com/docs) · [🌐 UI](https://ai-data-science-team-ui.onrender.com) | Multi-agent LLM team running end-to-end EDA → modeling → reporting (FastAPI brain + Streamlit cockpit) |
+| [Credit Risk Dashboard](https://github.com/ghanendrasahu/credit-risk-project) | [🌐 LIVE](https://credit-risk-app-92s8.onrender.com) | Loan-default scorer with threshold tuning for recall, served in an interactive Streamlit app |
+| [Industrial Predictive Maintenance](https://github.com/ghanendrasahu/industrial-predictive-maintenance) | [🌐 LIVE](https://industrial-predictive-maintenance-we44.onrender.com/docs) | Telemetry → anomaly + RUL + failure probability behind a FastAPI scoring API |
 | [Local RAG Assistant](https://github.com/ghanendrasahu/local-rag-assistant) | — | Privacy-first offline knowledge retrieval: TXT/PDF chunking + TF-IDF, config-driven, pytest |
 | [V-Call](https://github.com/ghanendrasahu/v-call) | — | AI Meeting Intelligence: FastAPI + Celery + PostgreSQL + LangGraph, multi-tenant transcription & agent orchestration |
 | [OnePiece](https://github.com/ghanendrasahu/onepiece) | — | Live 360° streaming & AI-guided virtual tourism with verified human guides |
