@@ -72,7 +72,7 @@ Transaction fraud scoring API: ensemble models trained at deploy time, served th
 | [Local RAG Assistant](https://github.com/ghanendrasahu/local-rag-assistant) | — | Privacy-first offline knowledge retrieval: TXT/PDF chunking + TF-IDF, config-driven, pytest |
 | [V-Call](https://github.com/ghanendrasahu/v-call) | [🌐 LIVE](https://v-call-mpy2.onrender.com/docs) | AI Meeting Intelligence: FastAPI + Celery + PostgreSQL + LangGraph, multi-tenant transcription & agent orchestration (phase-1 API live) |
 | [OnePiece](https://github.com/ghanendrasahu/onepiece) | [🌐 LIVE](https://onepiece-identity.onrender.com/docs) | Live 360° streaming & AI-guided virtual tourism with verified human guides — 8-service platform, identity service live |
-| [Kage](https://github.com/ghanendrasahu/kage) | [🌐 LIVE](https://kage-f9sc.onrender.com) | Multi-tenant AI outreach copilot: 7 research/drafting agents with human approval before send (Next.js 15, Drizzle/PostgreSQL, BullMQ/Redis) |
+| [Kage](https://github.com/ghanendrasahu/kage) | [🌐 LIVE](https://kage-f9sc.onrender.com) | Multi-tenant AI outreach copilot: 7 research/drafting agents with human approval before send (Next.js 15, Drizzle/PostgreSQL, BullMQ/Redis) · demo: admin@kage.dev / Admin123! |
 
 <details>
   <summary><b>📚 More repos</b></summary>
