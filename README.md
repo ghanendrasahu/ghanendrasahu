@@ -8,7 +8,7 @@
 
 Building production-grade ML systems, RAG pipelines, and agentic AI applications — currently completing formal Data Science & ML training while shipping real-world inference systems.
 
-> 🔁 All live demos run on free-tier hosts — the **first click after idle can take ~60–90 s** while an app wakes; every link is health-checked and working.
+> 🔁 All live demos run on free-tier hosts — the **first click after idle can take ~60–90 s** while an app wakes; every link is checked and working.
 
 ---
 
@@ -22,7 +22,7 @@ Agentic AI reference architecture showing the full LLM stack: prompt engineering
 - **RAG:** semantic search + Wikipedia + DuckDuckGo retrieval grounded in LangGraph; **ChromaDB** memory persists across sessions
 - Fully typed `TypedDict` state graph with tool-abstraction (LLM decides when to call Wikipedia / search / calculator)
 
-### 2. [Workforce Intelligence](https://github.com/ghanendrasahu/workforce-intelligence) — [🌐 API](https://workforce-intelligence-api-1n9k.onrender.com/docs) · [🌐 UI](https://workforce-intelligence-ui.onrender.com)
+### 2. [Workforce Intelligence](https://github.com/ghanendrasahu/workforce-intelligence) — [🌐 LIVE](https://workforce-intelligence-ui.onrender.com)
 
 Enterprise decision engine for employee attrition — *explains drivers and simulates interventions, not just a probability score*.
 
@@ -44,34 +44,34 @@ Full ML pipeline to deployment: data generation → training → FastAPI inferen
 - Telco churn pipeline with tuned **Random Forest (87%+ accuracy)** and proper train/validation discipline
 - FastAPI inference with structured schemas + interactive dashboard for risk assessment and batch prediction
 
-### 5. [Fraud Detection Engine](https://github.com/ghanendrasahu/fraud-detection-engine) — [🌐 LIVE](https://fraud-detection-engine-s5k7.onrender.com/docs)
+### 5. [Fraud Detection Engine](https://github.com/ghanendrasahu/fraud-detection-engine)
 
 Transaction fraud scoring API: ensemble models trained at deploy time, served through FastAPI.
 
 - **XGBoost / LightGBM / CatBoost ensembles** exported to **ONNX** for fast inference
-- `/health` + `/predict` endpoints with imbalanced-learning-aware training
+- Prediction endpoints with imbalanced-learning-aware training
 
 ---
 
-## 🚀 More Projects — every live link beside the name
+## 🚀 More Projects — live demo where a browser UI exists
 
 | Project | ↗ Live | One-liner |
 |---|---|---|
 | [JobHunter AI](https://github.com/ghanendrasahu/jobhunter-ai) | [🌐 LIVE](https://jobhunter-ai-h73m.onrender.com) | Multi-agent pipeline discovers + ranks + tracks GenAI/DS roles (Adzuna + scraping), agent workflow dashboard |
-| [Kitsunecart](https://github.com/ghanendrasahu/kitsunecart) | [🌐 LIVE](https://kitsunecart.onrender.com/docs) | E-commerce listing agent: product photo → SEO titles, bullets, descriptions (Groq LLM, offline fallback) |
-| [LegalLens India](https://github.com/ghanendrasahu/sharingan) | [🌐 LIVE](https://legal-lens-india.onrender.com/docs) | AI contract literacy for startups, freelancers, landlords/tenants (phase-1 API live) |
-| [RAG Assistant API](https://github.com/ghanendrasahu/rag-assistant-api) | [🌐 LIVE](https://rag-assistant-api-393o.onrender.com/docs) | PDF Q&A API: ChromaDB vector index + MiniLM/onnxruntime embeddings + Groq synthesis |
+| [Kitsunecart](https://github.com/ghanendrasahu/kitsunecart) | — | E-commerce listing agent: product photo → SEO titles, bullets, descriptions (Groq LLM, offline fallback) |
+| [LegalLens India](https://github.com/ghanendrasahu/sharingan) | — | AI contract literacy for startups, freelancers, landlords/tenants |
+| [RAG Assistant API](https://github.com/ghanendrasahu/rag-assistant-api) | — | PDF Q&A API: ChromaDB vector index + MiniLM/onnxruntime embeddings + Groq synthesis |
 | [AI Chat Bot](https://github.com/ghanendrasahu/ai-chat-bot) | [🌐 LIVE](https://ai-chat-bot-tmov.onrender.com) | Fullstack chat assistant: React/Vite frontend on a Node-Express API, streaming OpenAI replies with graceful degradation |
-| [RAG Evaluation Platform](https://github.com/ghanendrasahu/rag-eval-platform) | [🌐 LIVE](https://rag-eval-platform.onrender.com/docs) | RAG QA + built-in evaluation APIs that grade retrieval and answer quality across configurations |
-| [AI Content Factory](https://github.com/ghanendrasahu/ai-content-factory) | [🌐 LIVE](https://ai-content-factory-k9cv.onrender.com) | YouTube → transcript → clips → 9:16 video pipeline (LangGraph + FFmpeg + Whisper) |
+| [RAG Evaluation Platform](https://github.com/ghanendrasahu/rag-eval-platform) | — | RAG QA + built-in evaluation APIs that grade retrieval and answer quality across configurations |
+| [AI Content Factory](https://github.com/ghanendrasahu/ai-content-factory) | — | YouTube → transcript → clips → 9:16 video pipeline (LangGraph + FFmpeg + Whisper) |
 | [AI Integrated Coding Agent](https://github.com/ghanendrasahu/ai-integrate-coding) | [🌐 LIVE](https://ai-integrate-coding.onrender.com) | Agentic coding service: plans and executes tasks with streaming (SSE) progress + final reports (Flask) |
 | [Bankai OS](https://github.com/ghanendrasahu/bankai-os) | [🌐 LIVE](https://bankai-os.onrender.com) | Personal autonomous-agent platform: server orchestrator + web dashboard (Node/TypeScript monorepo) |
-| [AI Data Science Team](https://github.com/ghanendrasahu/ai-data-science-team) | [🌐 API](https://ai-data-science-team-api.onrender.com/docs) · [🌐 UI](https://ai-data-science-team-ui.onrender.com) | Multi-agent LLM team running end-to-end EDA → modeling → reporting (FastAPI brain + Streamlit cockpit) |
+| [AI Data Science Team](https://github.com/ghanendrasahu/ai-data-science-team) | [🌐 LIVE](https://ai-data-science-team-ui.onrender.com) | Multi-agent LLM team running end-to-end EDA → modeling → reporting (FastAPI brain + Streamlit cockpit) |
 | [Credit Risk Dashboard](https://github.com/ghanendrasahu/credit-risk-project) | [🌐 LIVE](https://credit-risk-app-92s8.onrender.com) | Loan-default scorer with threshold tuning for recall, served in an interactive Streamlit app |
-| [Industrial Predictive Maintenance](https://github.com/ghanendrasahu/industrial-predictive-maintenance) | [🌐 LIVE](https://industrial-predictive-maintenance-we44.onrender.com/docs) | Telemetry → anomaly + RUL + failure probability behind a FastAPI scoring API |
+| [Industrial Predictive Maintenance](https://github.com/ghanendrasahu/industrial-predictive-maintenance) | — | Telemetry → anomaly + RUL + failure probability behind a FastAPI scoring API |
 | [Local RAG Assistant](https://github.com/ghanendrasahu/local-rag-assistant) | — | Privacy-first offline knowledge retrieval: TXT/PDF chunking + TF-IDF, config-driven, pytest |
-| [V-Call](https://github.com/ghanendrasahu/v-call) | [🌐 LIVE](https://v-call-mpy2.onrender.com/docs) | AI Meeting Intelligence: FastAPI + Celery + PostgreSQL + LangGraph, multi-tenant transcription & agent orchestration (phase-1 API live) |
-| [OnePiece](https://github.com/ghanendrasahu/onepiece) | [🌐 LIVE](https://onepiece-identity.onrender.com/docs) | Live 360° streaming & AI-guided virtual tourism with verified human guides — 8-service platform, identity service live |
+| [V-Call](https://github.com/ghanendrasahu/v-call) | — | AI Meeting Intelligence: FastAPI + Celery + PostgreSQL + LangGraph, multi-tenant transcription & agent orchestration |
+| [OnePiece](https://github.com/ghanendrasahu/onepiece) | — | Live 360° streaming & AI-guided virtual tourism with verified human guides — 8-service platform |
 | [Kage](https://github.com/ghanendrasahu/kage) | [🌐 LIVE](https://kage-f9sc.onrender.com) | Multi-tenant AI outreach copilot: 7 research/drafting agents with human approval before send (Next.js 15, Drizzle/PostgreSQL, BullMQ/Redis) · demo: admin@kage.dev / Admin123! |
 
 <details>
