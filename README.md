@@ -99,6 +99,9 @@ Transaction fraud scoring API: ensemble models trained at deploy time, served th
 
 ## 💼 Experience
 
+**Robotics Data Collection & Annotation Specialist** — Cogito Tech, Bengaluru *(Sep 2026 – Present)*
+Full-time · On-site · Client project: **Skild AI**. Structured data labeling and annotation for robotics and AI/ML development workflows; review of annotated datasets for labeling errors and inconsistencies; dataset organization, preprocessing, and quality validation within project timelines.
+
 **Data Science with AI Apprentice** — BDreamz Global Solutions, Bengaluru *(Oct 2025 – Mar 2026)*
 Built and validated ML/AI models in production environments; end-to-end model lifecycle management.
 
