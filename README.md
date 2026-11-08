@@ -65,7 +65,7 @@ Transaction fraud scoring API: ensemble models trained at deploy time, served th
 | [RAG Evaluation Platform](https://github.com/ghanendrasahu/rag-eval-platform) | — | RAG QA + built-in evaluation APIs that grade retrieval and answer quality across configurations |
 | [AI Content Factory](https://github.com/ghanendrasahu/ai-content-factory) | — | YouTube → transcript → clips → 9:16 video pipeline (LangGraph + FFmpeg + Whisper) |
 | [AI Integrated Coding Agent](https://github.com/ghanendrasahu/ai-integrate-coding) | [🌐 LIVE](https://ai-integrate-coding.onrender.com) | Agentic coding service: plans and executes tasks with streaming (SSE) progress + final reports (Flask) |
-| [Bankai OS](https://github.com/ghanendrasahu/bankai-os) | [🌐 LIVE](https://bankai-os.onrender.com) | Personal autonomous-agent platform: server orchestrator + web dashboard (Node/TypeScript monorepo) |
+| Bankai OS (private) | — | Personal autonomous-agent platform: server orchestrator + web dashboard (Node/TypeScript monorepo) |
 | [AI Data Science Team](https://github.com/ghanendrasahu/ai-data-science-team) | [🌐 LIVE](https://ai-data-science-team-ui.onrender.com) | Multi-agent LLM team running end-to-end EDA → modeling → reporting (FastAPI brain + Streamlit cockpit) |
 | [Credit Risk Dashboard](https://github.com/ghanendrasahu/credit-risk-project) | [🌐 LIVE](https://credit-risk-app-92s8.onrender.com) | Loan-default scorer with threshold tuning for recall, served in an interactive Streamlit app |
 | [Industrial Predictive Maintenance](https://github.com/ghanendrasahu/industrial-predictive-maintenance) | — | Telemetry → anomaly + RUL + failure probability behind a FastAPI scoring API |
